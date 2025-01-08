@@ -8,7 +8,7 @@ The project involves:
 **Model Development**: Using a Decision Tree algorithm to predict mental health status based on the preprocessed data.
 Files in the Repository
 
-**1. Raw Dataset** (raw_dataset.csv)
+**1. Raw Dataset** (mentalHealthDataset.csv)
 Contains the original responses collected through a Google Form survey.
 Columns include:
 Timestamp: Date and time of survey submission.
@@ -23,11 +23,11 @@ Happiness Level: Overall happiness rating on a scale of 1–10.
 Anxiety Symptoms: Frequency of anxiety symptoms.
 Mental Health Status: Final self-reported mental health status.
 
-**2. Preprocessed Dataset** (preprocessed_dataset.csv)
+**2. Preprocessed Dataset** (DatasetAfterPreprocessing.csv)
 The cleaned and normalized version of the raw dataset.
 Data has been scaled and converted into numerical values for better compatibility with machine learning models.
 
-**3. Code (predictor.py)**
+**3. Code (mentalHeathStatusPredictorUsingDT.py)**
 Python script containing the implementation of:
 Data loading and preprocessing steps.
 Decision Tree Classifier for prediction.
